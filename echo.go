@@ -7,7 +7,7 @@ import (
 	maelstrom "github.com/jepsen-io/maelstrom/demo/go"
 )
 
-func echo() {
+func Echo() {
 	n := maelstrom.NewNode()
 
 	// Create  a handler for echo
