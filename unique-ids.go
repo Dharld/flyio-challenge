@@ -11,6 +11,7 @@ import (
 
 func UniqueIds() {
 	n := maelstrom.NewNode()
+
 	
 	// Listen to the generate event
 	n.Handle("generate", func (msg maelstrom.Message) error {
